@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MVCCurdModelStoreContainer" CdmEntityContainer="DBModels">
+    <EntitySetMapping Name="BookShops">
+      <EntityTypeMapping TypeName="MVCCurdModel.BookShop">
+        <MappingFragment StoreEntitySet="BookShop">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="BookName" ColumnName="BookName" />
+          <ScalarProperty Name="BookAuthor" ColumnName="BookAuthor" />
+          <ScalarProperty Name="BookPrice" ColumnName="BookPrice" />
+          <ScalarProperty Name="BookLaunchDate" ColumnName="BookLaunchDate" />
+          <ScalarProperty Name="BookAvailablityStatus" ColumnName="BookAvailablityStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
